@@ -27,6 +27,11 @@
     border: 0 none;
     box-shadow: none;
 
+    .ausfall {
+      color: $brand-primary;
+      font-weight: 500;
+    }
+
     .custom-panel-heading {
       border: 0 none;
       border-radius: 0;

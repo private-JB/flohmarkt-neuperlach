@@ -39,7 +39,7 @@
 
 <header>
   <div class="topbar">
-    <a href="index.php" class="btn-back">
+    <a href="/startseite" class="btn-back">
       <svg x="0px" y="0px" viewBox="0 0 31.5 31.5">
         <path class="st0" d="M10.3,26.5c0.4,0.4,1.1,0.4,1.6,0c0.4-0.4,0.4-1.1,0-1.6l-8-8h26.6c0.6,0,1.1-0.5,1.1-1.1s-0.5-1.1-1.1-1.1H3.8
         l8-8c0.4-0.4,0.4-1.2,0-1.6c-0.4-0.4-1.2-0.4-1.6,0l-10,10c-0.4,0.4-0.4,1.1,0,1.6L10.3,26.5z"/>

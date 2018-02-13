@@ -6,8 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="robots" content="index,follow"/>
 
-  <title>Flohmarkt München-Neuperlach, Fritz-Schäffer-Straße</title>
-  <meta name="description" content="Einkaufen und Verkaufen auf einem der schönsten Flohmärkte Münchens ✔ Termine, Anfahrt und Aktuelles für den Flohmarkt in der Fritz-Schäffer-Straße.">
+  <title>Flohmarkt München-Neuperlach, Fritz-Schäffer-Straße | Termine für Samstags- und Sonntagsflohmarkt <?php echo date('Y'); ?></title>
+  <meta name="description" content="
+  Flohmarkt Bürgerkreis Neuperlach e. V.
+  ✔ Termine, Anfahrt und Aktuelles für den Samstags Flohmarkt in der Fritz-Schäffer-Straße und den Sonntags Flohmarkt auf dem Hans-Seidel-Platz in Neuperlach.
+  ✔ Einkaufen und Verkaufen auf einem der schönsten Flohmärkte Münchens in Neuperlach.">
 
   <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
   <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -127,6 +130,9 @@
 
   <div class="hero-inner">
     <div class="container">
+      <div class="quick-info">
+        <span class="hidden-xs">WICHTIG:</span> Kein Flohmarkt am Samstag den 17.03.2018!
+      </div>
       <h2>Fritz-Schäffer-Straße <span class="hidden-xs">- Parkplatz Rentenversicherung</span></h2>
       <h1>
         <div>Flohmarkt</div>
@@ -152,7 +158,7 @@
         </div>
         <div class="col-xs-4 col-sm-offset-3 col-sm-2 box-stretch">
           <div class="box">
-            <a href="termine.php">
+            <a href="/termine">
               <svg x="0px" y="0px" viewBox="0 0 97.7 97.7">
                 <path d="M10.5,90.7h15.7V75H10.5V90.7z M29.7,90.7h17.4V75H29.7V90.7z M10.5,71.5h15.7V54.1H10.5V71.5z M29.7,71.5h17.4V54.1H29.7
                     V71.5z M10.5,50.6h15.7V34.9H10.5V50.6z M50.6,90.7H68V75H50.6V90.7z M29.7,50.6h17.4V34.9H29.7V50.6z M71.5,90.7h15.7V75H71.5V90.7
@@ -168,7 +174,7 @@
         </div>
         <div class="col-xs-4 col-sm-2 box-stretch">
           <div class="box dark">
-            <a href="anfahrt.php">
+            <a href="/anfahrt">
               <svg x="0px" y="0px" viewBox="0 0 97.7 97.7">
                 <path d="M48.9,0c-19.8,0-36,16.1-36,36c0,5.2,1.1,10.1,3.1,14.7C25,70.3,42.3,91.1,47.3,97c0.4,0.4,0.9,0.7,1.5,0.7
                     s1.1-0.3,1.5-0.7c5.1-5.9,22.3-26.7,31.3-46.4c2.1-4.6,3.1-9.5,3.1-14.7C84.8,16.1,68.7,0,48.9,0z M48.9,54.7
@@ -181,7 +187,7 @@
         <div class="col-xs-4 col-sm-2 box-stretch">
           <div class="box">
 
-            <a href="aktuelles.php">
+            <a href="/aktuelles">
               <svg x="0px" y="0px" viewBox="0 0 97.7 97.7">
                 <circle cx="16" cy="81.7" r="15.8"/>
                 <path d="M52.8,89.8c0,4.3,3.5,7.9,7.9,7.9s7.9-3.5,7.9-7.9c0-33.4-27.2-60.7-60.7-60.7C3.5,29.1,0,32.6,0,37s3.5,7.9,7.9,7.9

@@ -4,7 +4,7 @@
   height: 100vh;
   background: url("../../img/hero-bg.jpg") center center no-repeat;
   background-size: cover;
-  min-height: 420px;
+  min-height: 470px;
 
   &:after {
     content: '';
@@ -14,6 +14,16 @@
     right: 0;
     bottom: 0;
     background-color: rgba(255,255,255,0.8);
+  }
+  .quick-info {
+    background: #31c6bb;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 0px;
+    text-transform: uppercase;
   }
   .logo {
     width: 90px;
@@ -127,6 +137,11 @@
   #hero {
     min-height: 620px;
 
+    .quick-info {
+      font-size: 14px;
+      padding: 8px 0px;
+    }
+
     .hero-inner {
       h2 {
         font-size: 15.7px;
@@ -154,6 +169,11 @@
   #hero {
     min-height: 660px;
 
+    .quick-info {
+      width: 77%;
+      margin: 0 auto 10px;
+    }
+
     .hero-inner {
       .hero-boxes {
 
@@ -176,7 +196,11 @@
 
 @media screen and (min-width: $screen-lg-min) {
   #hero {
-    min-height: 740px;
+    min-height: 780px;
+
+    .quick-info {
+      width: 75%;
+    }
 
     .logo {
       width: 110px;
