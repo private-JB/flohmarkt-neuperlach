@@ -1,0 +1,11 @@
+!/node_modules
+/node_modules/*
+!/bower_components
+/bower_components/*
+composer.lock
+/yarn-error.log
+/npm-debug.log
+/robots.txt
+.idea
+.sass-cache
+/.idea

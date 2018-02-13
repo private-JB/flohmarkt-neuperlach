@@ -1,0 +1,39 @@
+.anfahrt {
+  .map-container {
+    height: 200px;
+    margin: 20px 0 30px;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .anfahrt-info {
+    h3 {
+      font-size: 14px;
+      text-transform: uppercase;
+      color: $brand-primary;
+      margin: 0 0 4px;
+      font-weight: 600;
+    }
+    .flex-wrapper {
+      margin-top: 20px;
+    }
+    ul li span {
+      font-weight: 500;
+    }
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  .anfahrt {
+
+    .anfahrt-info {
+      margin-top: 50px;
+    }
+    .map-container {
+      height: 270px;
+      margin: 0;
+    }
+  }
+}

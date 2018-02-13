@@ -1,0 +1,22 @@
+
+.footer {
+  font-size: 12px;
+  text-transform: uppercase;
+  color: $brand-primary;
+  position: absolute;
+  z-index: 1;
+  bottom: 20px;
+  font-weight: 500;
+  right: 0;
+  left: 0;
+  text-align: center;
+
+  a {
+    color: $brand-primary;
+  }
+}
+@media screen and (min-width: $screen-sm-min) {
+ .footer {
+  font-size: 14px;
+ }
+}

@@ -1,0 +1,219 @@
+#hero {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: url("../../img/hero-bg.jpg") center center no-repeat;
+  background-size: cover;
+  min-height: 420px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,0.8);
+  }
+  .logo {
+    width: 90px;
+    height: 90px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+  }
+  .hero-inner {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 40px;
+
+    h1 {
+      text-transform: uppercase;
+      font-weight: 600;
+      font-size: 46px;
+      line-height: 0.85;
+      margin-top: 0;
+      text-align: center;
+
+      > div:first-child {
+        font-size: 49px;
+      }
+    }
+    h2 {
+      color: $brand-primary;
+      text-transform: uppercase;
+      letter-spacing: 0.3em;
+      font-size: 15px;
+      margin: 0 0 4px;
+      text-align: center;
+      font-weight: 500;
+    }
+    .hero-boxes {
+      margin: 0;
+
+      .contact {
+        background-color: #fff;
+        height: 40px;
+        line-height: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: $brand-primary;
+        font-weight: 500;
+        display: block;
+        box-shadow: 0 0 14px 0 rgba(35, 35, 35, 0.25);
+
+        svg {
+          width: 12px;
+          height: 12px;
+          fill: $brand-primary;
+          margin-bottom: -1px; // center icon
+          margin-left: 2px;
+        }
+      }
+
+      .box-stretch {
+        padding: 0;
+      }
+
+      .box {
+        height: 100px;
+        background: $brand-primary;
+        color: #fff;
+        text-transform: uppercase;
+        transition: background 0.3s ease-in-out;
+
+        &:hover {
+          background: darken($brand-primary, 10%);
+        }
+
+        a {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          width: 100%;
+          height: 100%;
+          color: #fff;
+        }
+
+        svg {
+          fill: #fff;
+          width: 40px;
+          height: 40px;
+        }
+        span {
+          margin-top: 8px;
+          font-size: 12px;
+        }
+        &.dark {
+          background-color:#c63154;
+
+          &:hover {
+            background: darken($brand-primary, 10%);
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-sm-min) {
+  #hero {
+    min-height: 620px;
+
+    .hero-inner {
+      h2 {
+        font-size: 15.7px;
+      }
+      .hero-boxes {
+        margin-top: 20px;
+
+        .box {
+          height: 120px;
+        }
+      }
+      h1 {
+        font-size: 115px;
+        margin-left: -14px;
+
+        > div:first-child {
+          font-size: 122px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  #hero {
+    min-height: 660px;
+
+    .hero-inner {
+      .hero-boxes {
+
+        .box {
+          height: 157px;
+
+          svg {
+            width: 60px;
+            height: 60px;
+          }
+          span {
+            margin-top: 12px;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: $screen-lg-min) {
+  #hero {
+    min-height: 740px;
+
+    .logo {
+      width: 110px;
+      height: 110px;
+    }
+
+    .hero-inner {
+
+      h2 {
+        font-size: 18.6px;
+      }
+      h1 {
+        font-size: 135px;
+
+        > div:first-child {
+          font-size: 144px;
+        }
+      }
+      .hero-boxes {
+        .contact {
+          height: 50px;
+          line-height: 50px;
+          font-size: 16px;
+        }
+        .box {
+          height: 190px;
+
+          svg {
+            width: 60px;
+            height: 60px;
+          }
+          span {
+            margin-top: 16px;
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}

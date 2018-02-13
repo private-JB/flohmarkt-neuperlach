@@ -1,0 +1,13 @@
+@import "bootstrap-custom-variables";
+@import "parts/imprint";
+@import "parts/hero";
+@import "parts/topbar";
+@import "parts/termine";
+@import "parts/global";
+@import "parts/anfahrt";
+@import "parts/aktuelles";
+@import "parts/footer";
+
+body {
+  font-family: "Poppins", sans-serif;
+}

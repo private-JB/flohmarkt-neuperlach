@@ -1,0 +1,71 @@
+.aktuelles {
+  padding-top: 70px;
+
+  .image {
+    height: 200px;
+    background: url('../img/altenheim-nikolaus.jpg') center center no-repeat;
+    background-size: cover;
+    margin-bottom: 15px;
+
+    &.two {
+      background: url('../img/weihnachtsfeier-nikolaus.jpg') center center no-repeat;
+      background-size: cover;
+    }
+  }
+  .publish-date {
+    font-size: 12px;
+    margin: 0 0 10px 0;
+    text-align: left;
+    font-weight: 600;
+    border-bottom: 1px solid gray;
+    padding-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .block-aktuelles {
+    padding-bottom: 20px;
+
+    h2 {
+      margin: 0px 0 8px 0;
+      text-align: left;
+      font-weight: 600;
+      color: #4e4e4e;
+      padding-bottom: 10px;
+      position: relative;
+      font-size: 24px;
+
+      &:after {
+        content: '';
+        width: 50px;
+        height: 4px;
+        background-color: #de325a;
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $screen-md-min) {
+  .aktuelles {
+    padding-top: 90px;
+      .block-aktuelles {
+         h2 {
+           font-size: 30px;
+         }
+       }
+      .image {
+      height: 260px;
+    }
+  }
+}
+@media screen and (min-width: $screen-lg-min) {
+  .aktuelles {
+    padding-top: 130px;
+
+    .image {
+      height: 330px;
+    }
+  }
+}
