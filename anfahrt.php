@@ -73,7 +73,7 @@
         </div>
 
         <div class="map-container col-xs-12 col-sm-6 col-sm-pull-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1512.9739286694394!2d11.646281353543538!3d48.103877988507136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de07384258b5d%3A0x296dab4d944337cf!2zNDjCsDA2JzE1LjQiTiAxMcKwMzgnNTAuOSJF!5e0!3m2!1sde!2sde!4v1517591660454" width="290" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1296.8214782591485!2d11.646330234245033!3d48.104338297667006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sflohmarkt!5e0!3m2!1sde!2sde!4v1519236179714" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
         </div>
       </div>
     </div>
