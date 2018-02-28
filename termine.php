@@ -77,6 +77,7 @@
           </div>
         </div>
       </div>
+
       <div class="row">
         <div class="col-xs-12 col-sm-6">
 
@@ -318,32 +319,224 @@
     </div>
     <div class="block-termine block-termine-2">
       <h2 class="headline-s1">Flohmarkt Hans-Seidel-Platz</h2>
+
       <div class="markt-info row">
-        <div class="col-xs-12">
-          <ul class="meldung-aktuell">
-            <li>Aktuell stehen noch keine Termine für den Sonntags Flohmarkt am Hans-Seidel-Platz fest. Wir halten Sie
-              auf dem Laufenden.
-            </li>
-            <!--            <li><span>Einlass:</span>7:45 Uhr</li>-->
-            <!--            <li><span>Aufbau:</span>8:00 Uhr</li>-->
+        <div class="col-xs-12 col-sm-6">
+          <ul>
+            <li><span>Einlass:</span>7:00 Uhr</li>
+            <li><span>Aufbau:</span>9:00 Uhr</li>
+            <li class="markt-meldung">Kein Sonntagsflohmarkt mehr nach Baubeginn</li>
           </ul>
         </div>
-        <!--        <div class="col-xs-12">-->
-        <!--          <div class="flex-wrapper">-->
-        <!--            <ul>-->
-        <!--              <li>Keine Händler / Keine Neuware</li>-->
-        <!--              <li>Keine Müllentsorgung</li>-->
-        <!--            </ul>-->
-        <!--            <svg x="0px" y="0px" viewBox="0 0 512 446">-->
-        <!--              <path d="M507.5,394.1L282.9,21.5C277.2,12.1,267,6.4,256,6.4c-11,0-21.2,5.8-26.9,15.2L4.5,394.1c-5.8,9.7-6,21.8-0.5,31.6-->
-        <!--                  c5.6,9.9,16,15.9,27.3,15.9h449.3c11.3,0,21.8-6.1,27.3-15.9C513.5,415.8,513.3,403.8,507.5,394.1z M256.2,135.2-->
-        <!--                  c12.9,0,23.8,7.3,23.8,20.2c0,39.4-4.6,95.9-4.6,135.3c0,10.3-11.2,14.6-19.2,14.6c-10.6,0-19.5-4.3-19.5-14.6-->
-        <!--                  c0-39.4-4.6-95.9-4.6-135.3C232,142.5,242.6,135.2,256.2,135.2z M256.5,379c-14.6,0-25.5-11.9-25.5-25.5-->
-        <!--                  c0-13.9,10.9-25.5,25.5-25.5c13.6,0,25.1,11.6,25.1,25.5C281.6,367.1,270.1,379,256.5,379z"/>-->
-        <!--            </svg>-->
-        <!--          </div>-->
-        <!--        </div>-->
+        <div class="col-xs-12 col-sm-6">
+          <div class="flex-wrapper">
+            <ul>
+              <li>Keine Händler / Keine Neuware</li>
+              <li>Keine Müllentsorgung</li>
+              <li>Keine Anhänger</li>
+            </ul>
+            <svg x="0px" y="0px" viewBox="0 0 512 446">
+              <path d="M507.5,394.1L282.9,21.5C277.2,12.1,267,6.4,256,6.4c-11,0-21.2,5.8-26.9,15.2L4.5,394.1c-5.8,9.7-6,21.8-0.5,31.6
+                  c5.6,9.9,16,15.9,27.3,15.9h449.3c11.3,0,21.8-6.1,27.3-15.9C513.5,415.8,513.3,403.8,507.5,394.1z M256.2,135.2
+                  c12.9,0,23.8,7.3,23.8,20.2c0,39.4-4.6,95.9-4.6,135.3c0,10.3-11.2,14.6-19.2,14.6c-10.6,0-19.5-4.3-19.5-14.6
+                  c0-39.4-4.6-95.9-4.6-135.3C232,142.5,242.6,135.2,256.2,135.2z M256.5,379c-14.6,0-25.5-11.9-25.5-25.5
+                  c0-13.9,10.9-25.5,25.5-25.5c13.6,0,25.1,11.6,25.1,25.5C281.6,367.1,270.1,379,256.5,379z"/>
+            </svg>
+          </div>
+        </div>
       </div>
+
+
+
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+
+          <div class="panel-group" id="accordion3" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift12">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                     href="#collapse12"
+                     aria-expanded="false" aria-controls"collapse12">
+                  März
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse12" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift12">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>04.03.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift13">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                     href="#collapse13"
+                     aria-expanded="false" aria-controls"collapse13">
+                  April
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift13">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>01.04.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift14">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                     href="#collapse14"
+                     aria-expanded="false" aria-controls"collapse14">
+                  Mai
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse14" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift14">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>06.05.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift15">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion3"
+                     href="#collapse15"
+                     aria-expanded="false" aria-controls"collapse15">
+                  Juni
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse15" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift15">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>03.06.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-xs-12 col-sm-6">
+
+          <div class="panel-group second-accordeon" id="accordion4" role="tablist" aria-multiselectable="true">
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift16">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                     href="#collapse16"
+                     aria-expanded="false" aria-controls"collapse16">
+                  Juli
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse16" class="panel-collapse collapse" role="tabpanel"
+                   aria-labelledby="überschrift16">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>01.07.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift17">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                     href="#collapse17"
+                     aria-expanded="false" aria-controls"collapse17">
+                  August
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse17" class="panel-collapse collapse" role="tabpanel"
+                   aria-labelledby="überschrift17">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>05.08.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift18">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                     href="#collapse18"
+                     aria-expanded="false" aria-controls"collapse18">
+                  September
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse18" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift18">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>02.09.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift19">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                     href="#collapse19"
+                     aria-expanded="false" aria-controls"collapse19">
+                  Oktober
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse19" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift19">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>07.10.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="panel panel-default custom-panel">
+              <div class="panel-heading custom-panel-heading" role="tab" id="überschrift20">
+                <h4 class="panel-title">
+                  <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion4"
+                     href="#collapse20"
+                     aria-expanded="false" aria-controls"collapse20">
+                  November
+                  </a>
+                </h4>
+              </div>
+              <div id="collapse20" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift20">
+                <div class="panel-body">
+                  <ul>
+                    <li><span>So. </span>04.11.2018</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
 
     </div>
   </div>
