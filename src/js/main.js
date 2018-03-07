@@ -20,10 +20,6 @@ $(function () {
     }});
   })
 
-  /**
-   * INTRO ANIMATION
-   */
-
   var innerHeight = window.innerHeight;
 
   window.addEventListener('resize', function() {

@@ -8,10 +8,20 @@
 
   <title>Termine | Flohmarkt München-Neuperlach</title>
   <meta name="description" content="Termine 2018 für den Flohmarkt in der Fritz-Schäffer-Straße und auf dem Hans-Seidel-Platz.">
+  <meta name="keywords" content="Termine, Flohmarkt, Neuperlach, München, Rentenversicherung, Parkplatz, Sonntag, Flohmarkt Neuperlach, Bürgerkreis Neuperlach">
 
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600" rel="stylesheet">
-  <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <meta property="og:title" content="Flohmarkt Neuperlach">
+  <meta property="og:type" content="organisation">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:url" content="https://www.flohmarkt-neuperlach.de/">
+  <meta property="og:description" content="Termine, Anfahrt und Aktuelles für den Samstags Flohmarkt in der Fritz-Schäffer-Straße und den Sonntags Flohmarkt auf dem Hanns-Seidel-Platz in Neuperlach.">
+
+  <link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600" rel="stylesheet">
+  <link href="/node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- build:css css/main.min.css -->
   <link href="css/main.css" rel="stylesheet">
+  <!-- endbuild -->
 
   <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
@@ -23,9 +33,32 @@
   <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
+  <!-- Mobile OPT-OUT for google analytics -->
+  <script data-mce-type="text/javascript">
+    var gaProperty = 'UA-113712448-1';
+    var disableStr = 'ga-disable-' + gaProperty;
+    if (document.cookie.indexOf(disableStr + '=true') > -1) {
+      window[disableStr] = true;
+    }
+    function gaOptout() {
+      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+      window[disableStr] = true;
+      alert("Google Analytics ist nun für diese Webseite deaktiviert.")
+    }
+  </script>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113712448-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-113712448-1', { 'anonymize_ip': true });
+  </script>
 </head>
 <body>
-<?php include("content/impressum_de.php") ?>
+<?php include("impressum_de.php") ?>
 
 <header>
   <div class="topbar">
@@ -543,7 +576,7 @@
 
   <footer class="footer">
     <div class="container">
-      © Bürgerkreis Neuperlach <?php echo date('Y'); ?> <span>|</span><a class="link-imprint" id="linkImprint"> Impressum</a>
+      © Bürgerkreis Neuperlach <?php echo date('Y'); ?>  &nbsp;<a class="link-imprint" id="linkImprint">| Impressum</a>
     </div>
   </footer>
 
@@ -551,9 +584,11 @@
 </section>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
-<script src="node_modules/gsap/src/minified/TweenMax.min.js"></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="/node_modules/gsap/TweenMax.js"></script>
+
+<!-- build:js js/main.min.js -->
 <script src="js/main.js"></script>
+<!-- endbuild -->
 </body>
 </html>

@@ -1,16 +1,10 @@
 .aktuelles {
   padding-top: 70px;
 
-  .image {
-    height: 200px;
-    background: url('../img/altenheim-nikolaus.jpg') center center no-repeat;
-    background-size: cover;
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
     margin-bottom: 15px;
-
-    &.two {
-      background: url('../img/weihnachtsfeier-nikolaus.jpg') center center no-repeat;
-      background-size: cover;
-    }
   }
   .publish-date {
     font-size: 12px;

@@ -14,10 +14,10 @@
 #    RewriteCond %{HTTP_HOST} !(www\.)flohmarkt-neuperlach\.de [NC]
 #    RewriteRule (.*) https://www.flohmarkt-neuperlach.de/$1 [R=301,L]
 
-    RewriteRule ^/$ index.php
-    RewriteRule ^anfahrt$ anfahrt.php
-    RewriteRule ^termine$ termine.php
-    RewriteRule ^aktuelles$ aktuelles.php
+#    RewriteRule ^/$ index.php
+#    RewriteRule ^anfahrt$ anfahrt.php
+#    RewriteRule ^termine$ termine.php
+#    RewriteRule ^aktuelles$ aktuelles.php
 
 #<IfModule mod_expires.c>
 #  ExpiresActive On
