@@ -111,13 +111,13 @@
       </div>
     </div>
     <div class="block block-2">
-      <h2 class="headline-s1">Flohmarkt Hans-Seidel-Platz</h2>
+      <h2 class="headline-s1">Flohmarkt Hanns-Seidel-Platz</h2>
       <div class="row">
         <div class="anfahrt-info col-xs-12 col-sm-6 col-sm-push-6">
           <div class="">
             <h3>Adresse</h3>
             <ul>
-              <li>Hans-Seidel-Platz</li>
+              <li>Hanns-Seidel-Platz</li>
               <li>Parkplatz PEP Neuperlach</li>
               <li>81737 München</li>
             </ul>

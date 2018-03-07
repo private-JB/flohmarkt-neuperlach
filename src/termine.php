@@ -7,7 +7,7 @@
   <meta name="robots" content="index,follow"/>
 
   <title>Termine | Flohmarkt München-Neuperlach</title>
-  <meta name="description" content="Termine 2018 für den Flohmarkt in der Fritz-Schäffer-Straße und auf dem Hans-Seidel-Platz.">
+  <meta name="description" content="Termine 2018 für den Flohmarkt in der Fritz-Schäffer-Straße und auf dem Hanns-Seidel-Platz.">
   <meta name="keywords" content="Termine, Flohmarkt, Neuperlach, München, Rentenversicherung, Parkplatz, Sonntag, Flohmarkt Neuperlach, Bürgerkreis Neuperlach">
 
   <meta property="og:title" content="Flohmarkt Neuperlach">
@@ -351,7 +351,7 @@
 
     </div>
     <div class="block-termine block-termine-2">
-      <h2 class="headline-s1">Flohmarkt Hans-Seidel-Platz</h2>
+      <h2 class="headline-s1">Flohmarkt Hanns-Seidel-Platz</h2>
 
       <div class="markt-info row">
         <div class="col-xs-12 col-sm-6">
