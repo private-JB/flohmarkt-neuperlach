@@ -155,9 +155,9 @@
 
   <div class="hero-inner">
     <div class="container">
-      <div class="quick-info">
-        <span class="hidden-xs">WICHTIG:</span> Kein Flohmarkt am Samstag den 17.03.2018!
-      </div>
+<!--      <div class="quick-info">-->
+<!--        <span class="hidden-xs">WICHTIG:</span> Nächster Sonntagsflohmarkt den 17.03.2018!-->
+<!--      </div>-->
       <h2>Fritz-Schäffer-Straße <span class="hidden-xs">- Parkplatz Rentenversicherung</span></h2>
       <h1>
         <div>Flohmarkt</div>

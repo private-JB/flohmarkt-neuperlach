@@ -417,7 +417,9 @@
               <div id="collapse13" class="panel-collapse collapse" role="tabpanel" aria-labelledby="überschrift13">
                 <div class="panel-body">
                   <ul>
-                    <li><span>So. </span>01.04.2018</li>
+                    <li class="ausfall"><span>So. </span>01.04.2018 - AUSGEFALLEN</li>
+                    <li><span>So. </span>08.04.2018</li>
+
                   </ul>
                 </div>
               </div>
