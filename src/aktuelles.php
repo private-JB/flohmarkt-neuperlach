@@ -34,29 +34,6 @@
   <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Mobile OPT-OUT for google analytics -->
-  <script data-mce-type="text/javascript">
-    var gaProperty = 'UA-113712448-1';
-    var disableStr = 'ga-disable-' + gaProperty;
-    if (document.cookie.indexOf(disableStr + '=true') > -1) {
-      window[disableStr] = true;
-    }
-    function gaOptout() {
-      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-      window[disableStr] = true;
-      alert("Google Analytics ist nun für diese Webseite deaktiviert.")
-    }
-  </script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113712448-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-113712448-1', { 'anonymize_ip': true });
-  </script>
 </head>
 <body>
 <?php include("impressum_de.php") ?>
@@ -88,6 +65,15 @@
     <div class="row">
 
       <div class="block-aktuelles block-aktuelles-1 col-xs-12 col-sm-6">
+        <h3 class="publish-date">Hanns-Seidel-Platz Neuperlach | 23.05.2018</h3>
+        <img src="img/baustelle.jpg" alt="Baustelle" class="img-fluid">
+        <div>
+          <h2>Solang bis der Bagger kommt</h2>
+          <p>Der Sonntags Flohmarkt auf dem Hanns-Seidel-Platz findet noch solange statt, bis die Bagger anfangen das Grundstück umzugraben. Also keine Sorge, wir freuen uns auf Sie!</p>
+        </div>
+      </div>
+
+      <div class="block-aktuelles block-aktuelles-1 col-xs-12 col-sm-6">
         <h3 class="publish-date">Neuperlacher Sportwirt | 15.12.2017</h3>
         <img src="img/weihnachtsfeier-nikolaus.jpg" alt="Weihnachtsfeier Nikolaus Neuperlach" class="img-fluid">
         <div>
@@ -110,6 +96,7 @@
             lassen. Danke den Spendern, die uns unterstützen.</p>
         </div>
       </div>
+
     </div>
   </div>
 

@@ -34,29 +34,6 @@
   <meta name="msapplication-config" content="img/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 
-  <!-- Mobile OPT-OUT for google analytics -->
-  <script data-mce-type="text/javascript">
-    var gaProperty = 'UA-113712448-1';
-    var disableStr = 'ga-disable-' + gaProperty;
-    if (document.cookie.indexOf(disableStr + '=true') > -1) {
-      window[disableStr] = true;
-    }
-    function gaOptout() {
-      document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
-      window[disableStr] = true;
-      alert("Google Analytics ist nun für diese Webseite deaktiviert.")
-    }
-  </script>
-
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113712448-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-113712448-1', { 'anonymize_ip': true });
-  </script>
 </head>
 <body>
 <?php include("impressum_de.php") ?>
@@ -85,7 +62,7 @@
     <div class="block block-1">
       <h2 class="headline-s1">Flohmarkt Fritz-Schäffer-Straße</h2>
       <div class="row">
-        <div class="anfahrt-info col-xs-12 col-sm-6 col-sm-push-6">
+        <div class="anfahrt-info col-xs-12 col-sm-6">
           <div class="">
             <h3>Adresse</h3>
             <ul>
@@ -105,15 +82,15 @@
           </div>
         </div>
 
-        <div class="map-container col-xs-12 col-sm-6 col-sm-pull-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1296.8214782591485!2d11.646330234245033!3d48.104338297667006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sflohmarkt!5e0!3m2!1sde!2sde!4v1519236179714" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+<!--        <div class="map-container col-xs-12 col-sm-6 col-sm-pull-6">-->
+<!--          <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d1296.8214782591485!2d11.646330234245033!3d48.104338297667006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sflohmarkt!5e0!3m2!1sde!2sde!4v1519236179714" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+<!--        </div>-->
       </div>
     </div>
     <div class="block block-2">
       <h2 class="headline-s1">Flohmarkt Hanns-Seidel-Platz</h2>
       <div class="row">
-        <div class="anfahrt-info col-xs-12 col-sm-6 col-sm-push-6">
+        <div class="anfahrt-info col-xs-12 col-sm-6">
           <div class="">
             <h3>Adresse</h3>
             <ul>
@@ -132,9 +109,9 @@
             </div>
           </div>
         </div>
-        <div class="map-container col-xs-12 col-sm-6 col-sm-pull-6">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.7685501773421!2d11.646229436186413!3d48.10048723461484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de0711e64974d%3A0xb02bb26fa8bb4c52!2sPep-Parkplatz+Hanns-Seidel-Platz%2C+81737+M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1517759554945" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-        </div>
+<!--        <div class="map-container col-xs-12 col-sm-6 col-sm-pull-6">-->
+<!--          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1240.7685501773421!2d11.646229436186413!3d48.10048723461484!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479de0711e64974d%3A0xb02bb26fa8bb4c52!2sPep-Parkplatz+Hanns-Seidel-Platz%2C+81737+M%C3%BCnchen!5e0!3m2!1sde!2sde!4v1517759554945" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+<!--        </div>-->
       </div>
     </div>
   </div>
